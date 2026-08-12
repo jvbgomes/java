@@ -1,18 +1,28 @@
 # Java
 
-Workspace de aprendizado e projetos em Java.
+Repositório com tudo que estou aprendendo e desenvolvendo em Java — curso, exercícios e projetos.
 
 ## Estrutura
 
-| Pasta | Uso |
-|-------|-----|
-| `exercicios/` | Exercícios avulsos, desafios e prática de sintaxe |
-| `estudos/` | Experimentos enquanto aprende um conceito novo |
-| `projetos/` | Projetos completos com objetivo definido |
+```
+java/
+├── estudos/
+│   └── maratona-java/          # Maratona Java — DevDojo
+│       ├── 01-introducao/
+│       ├── 02-operadores/
+│       ├── 03-condicionais/
+│       ├── 04-loops/
+│       ├── 05-arrays/
+│       └── 06-orientacao-objeto/
+├── exercicios/                 # Exercícios avulsos e prática
+└── projetos/                   # Projetos completos
+```
 
-## Como criar um novo projeto no IntelliJ
+## Tecnologias
 
-1. `File > New Project`
-2. Selecione **Java**
-3. JDK: **25**
-4. Salve dentro da pasta correspondente aqui em `~/repos/java/`
+- Java 25
+- IntelliJ IDEA Community
+
+## Maratona Java
+
+Acompanhando a [Maratona Java do DevDojo](https://www.youtube.com/@DevDojoBrasil) — cada módulo tem sua própria pasta com `src/` dentro de `estudos/maratona-java/`.

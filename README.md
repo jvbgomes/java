@@ -22,7 +22,3 @@ java/
 
 - Java 25
 - IntelliJ IDEA Community
-
-## Maratona Java
-
-Acompanhando a [Maratona Java do DevDojo](https://www.youtube.com/@DevDojoBrasil) — cada módulo tem sua própria pasta com `src/` dentro de `estudos/maratona-java/`.

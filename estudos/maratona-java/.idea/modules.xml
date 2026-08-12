@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/maratona-java.iml" filepath="$PROJECT_DIR$/maratona-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-introducao/01-introducao.iml" filepath="$PROJECT_DIR$/01-introducao/01-introducao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-operadores/02-operadores.iml" filepath="$PROJECT_DIR$/02-operadores/02-operadores.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-condicionais/03-condicionais.iml" filepath="$PROJECT_DIR$/03-condicionais/03-condicionais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-loops/04-loops.iml" filepath="$PROJECT_DIR$/04-loops/04-loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-arrays/05-arrays.iml" filepath="$PROJECT_DIR$/05-arrays/05-arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-orientacao-objeto/06-orientacao-objeto.iml" filepath="$PROJECT_DIR$/06-orientacao-objeto/06-orientacao-objeto.iml" />
+    </modules>
+  </component>
+</project>

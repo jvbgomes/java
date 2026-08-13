@@ -31,4 +31,3 @@ bin/
 ### IntelliJ IDEA - extra ###
 .idea/workspace.xml
 .idea/shelf/
-*.iml

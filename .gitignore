@@ -6,7 +6,6 @@ out/
 .idea/httpRequests/
 .idea/dataSources/
 .idea/dataSources.local.xml
-*.iml
 
 ### Compilados Java ###
 *.class

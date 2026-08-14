@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.intro;
+package academy.devdojo.maratonajava.condicionais;
 
 public class Condicionais {
     public static void main(String[] args) {

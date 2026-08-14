@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.intro;
+package academy.devdojo.maratonajava.introducao;
 
 public class TiposPrimitivos {
     static void main(String[] args) {

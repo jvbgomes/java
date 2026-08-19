@@ -1,13 +1,10 @@
 package treino.pratica.orientacaoobjetos.exemplos.dominio;
 
-public class Zombie {
-    private String name;
-    private int health;
+public class Zombie extends Entity {
     private int damage;
 
     public Zombie(String name, int health, int damage) {
-        this.name = name;
-        this.health = health;
+        super(name, health);
         this.damage = damage;
     }
 

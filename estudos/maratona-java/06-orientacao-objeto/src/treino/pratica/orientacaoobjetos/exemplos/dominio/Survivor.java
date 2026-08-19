@@ -1,13 +1,10 @@
 package treino.pratica.orientacaoobjetos.exemplos.dominio;
 
-public class Survivor {
-    private String name;
-    private int health;
+public class Survivor extends Entity {
     private int hunger;
 
     public Survivor(String name, int health, int hunger) {
-        this.name = name;
-        this.health = health;
+        super(name, health);
         this.hunger = hunger;
     }
 
@@ -16,7 +13,9 @@ public class Survivor {
         if (hunger < 0) hunger = 0;
     }
 
+    @Override
     public void printStatus() {
-        System.out.println(name + " - Health: " + health + ", Hunger: " + hunger);
+        super.printStatus();
+        System.out.println(" - Hunger: " + hunger);
     }
 }

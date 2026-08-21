@@ -1,11 +1,11 @@
 package treino.pratica.orientacaoobjetos.aulaslp2;
 
 public class Missao {
-    private String title;
-    private String description;
-    private boolean concluded;
-    private int minLevel;
-    private Recompensa recompensa;
+    private final String title;
+    private final String description;
+    private boolean concluded; //Estado mutável
+    private final int minLevel;
+    private final Recompensa recompensa;
 
     public Missao(String title, String description, int minLevel, Recompensa recompensa) {
         this.title = title;
@@ -16,7 +16,7 @@ public class Missao {
     }
 
     public Missao(String title, String description, int minLevel) {
-        this(title, description, minLevel, null);
+        this(title, description, minLevel, null); //sobrecarga justificavel
     }
 
     public void concluir() {

@@ -1,8 +1,8 @@
 package treino.pratica.orientacaoobjetos.aulaslp2;
 
 public class Recompensa {
-    private String type;
-    private int quantity;
+    private final String type;
+    private  final int quantity;
 
     public Recompensa(String type, int quantity) {
         this.type = type;
@@ -15,6 +15,6 @@ public class Recompensa {
 
     @Override
     public String toString() {
-        return quantity + " de " + type;
+        return quantity + " " + type;
     }
 }

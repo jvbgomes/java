@@ -1,9 +1,9 @@
 package treino.pratica.orientacaoobjetos.praticando.domain;
 
-public class Pessoa {
-    protected String name;
+public class Person {
+    private String name;
 
-    public Pessoa(String name) {
+    public Person(String name) {
         this.name = name;
     }
 

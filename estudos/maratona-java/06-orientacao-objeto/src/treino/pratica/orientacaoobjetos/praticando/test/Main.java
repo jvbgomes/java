@@ -12,17 +12,26 @@ public class Main {
     public static void main(String[] args) {
         Author author1 = new Author("JK Rowling", "Harry Potter");
         Book book1 = new Book("Harry Potter and the Deathly Hallows", 500, author1);
+        Book book2 = new Book("Harry Potter and the Secret of Chambers", 437, author1);
 
         Person person1 = new Person("John");
         Person person2 = new Person("Mary");
+        Person person3 = new Person("Peter");
 
         Library library = new Library();
         library.registerBook(book1);
+        library.registerBook(book2);
 
         Loan loan = library.loanBook(book1, person1);
+        Loan loan2 = library.loanBook(book2, person3);
+
         System.out.println("Book borrowed: " + loan.getBook().getTitle());
         System.out.println("Borrowed by: " + loan.getPerson().getName());
         System.out.println("Expected return: " + loan.getExpectedReturnDate());
+
+        System.out.println("Book borrowed: " + loan2.getBook().getTitle());
+        System.out.println("Borrowed by: " + loan2.getPerson().getName());
+        System.out.println("Expected return: " + loan2.getExpectedReturnDate());
 
         try {
             library.loanBook(book1, person2);
@@ -31,6 +40,8 @@ public class Main {
         }
 
         library.returnBook(loan);
+        library.returnBook(loan2);
         System.out.println("Book returned. Available: " + book1.isAvailable());
+        System.out.println("Book returned. Available: " + book2.isAvailable());
     }
 }
